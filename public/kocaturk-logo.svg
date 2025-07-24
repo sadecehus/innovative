@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#357ABD;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E5A96;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(50, 50)">
+    <!-- Main K letter structure -->
+    <path d="M100 100 L100 600 L180 600 L180 380 L420 600 L520 600 L320 400 L500 100 L400 100 L260 280 L180 200 L180 100 Z" fill="url(#grad1)"/>
+    
+    <!-- Circular background element -->
+    <circle cx="350" cy="350" r="320" fill="none" stroke="url(#grad1)" stroke-width="40" opacity="0.3"/>
+    
+    <!-- Additional design elements -->
+    <path d="M500 150 L580 150 L580 250 L500 250 Z" fill="url(#grad1)" opacity="0.8"/>
+    <path d="M500 400 L580 400 L580 500 L500 500 Z" fill="url(#grad1)" opacity="0.8"/>
+    
+    <!-- Arrow-like elements -->
+    <path d="M600 200 L700 200 L680 180 L680 190 L650 190 L650 210 L680 210 L680 220 Z" fill="url(#grad1)"/>
+    <path d="M600 450 L700 450 L680 430 L680 440 L650 440 L650 460 L680 460 L680 470 Z" fill="url(#grad1)"/>
+  </g>
+</svg>
