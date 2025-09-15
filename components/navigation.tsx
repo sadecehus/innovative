@@ -15,6 +15,7 @@ import {
   DropdownMenuSeparator,
 } from "@/components/ui/dropdown-menu"
 import { useLanguage } from "@/contexts/language-context"
+import Image from "next/image"
 
 export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -55,15 +56,14 @@ export function Navigation() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
-            <div className="relative w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center overflow-hidden group-hover:shadow-lg transition-all">
-              <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white via-transparent to-transparent"></div>
-              <span className="text-white font-bold text-xl">IT</span>
-            </div>
-            <div>
-              <span className="hidden sm:block font-bold text-xl">Innovative Trademark</span>
-              <span className="hidden sm:block text-xs text-muted-foreground">
-                {language === "tr" ? "Teknoloji Çözümleri" : "Technology Solutions"}
-              </span>
+            <div className="relative w-72 h-72 overflow-hidden">
+              <Image
+                src={theme === "dark" ? "/beyazlogo.png" : "/siyahlogo.png"}
+                alt="Logo"
+                layout="fill"
+                objectFit="fill"
+                className="transition-transform duration-300 group-hover:scale-110"
+              />
             </div>
           </Link>
 

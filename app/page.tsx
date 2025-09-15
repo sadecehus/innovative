@@ -82,8 +82,8 @@ export default function HomePage() {
       logo: "/kocaturklogo.png" 
     },
     { 
-      name: "Microsoft", 
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/512px-Microsoft_logo.svg.png" 
+      name: "KGS", 
+      logo: "kgs.png" 
     },
     { 
       name: "Google", 
@@ -103,9 +103,9 @@ export default function HomePage() {
   ]
 
   const stats = [
-    { value: "150+", label: t("home.projectsCompleted") },
+    { value: "40+", label: t("home.projectsCompleted") },
     { value: "98%", label: t("home.clientSatisfaction") },
-    { value: "15+", label: t("home.yearsExperience") },
+   
     { value: "24/7", label: t("home.supportAvailable") },
   ]
 
@@ -285,39 +285,7 @@ export default function HomePage() {
                   </Button>
                 </div>
 
-                <div className="mt-12 flex flex-col sm:flex-row items-start sm:items-center gap-4">
-                  <div className="flex -space-x-2">
-                    {[1, 2, 3].map((i) => (
-                      <div key={i} className="w-8 h-8 rounded-full border-2 border-background overflow-hidden">
-                        <Image
-                          src={`/placeholder.svg?height=32&width=32&text=${i}`}
-                          alt="Team member"
-                          width={32}
-                          height={32}
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
-                    ))}
-                  </div>
-                  <div className="text-sm text-muted-foreground">
-                    <span className="font-medium text-foreground">15+ {t("home.yearsOf")}</span> {t("home.experience")}
-                  </div>
-                  <div className="hidden sm:block h-4 border-r border-border"></div>
-                  <div className="flex items-center">
-                    {[1, 2, 3, 4, 5].map((star) => (
-                      <svg
-                        key={star}
-                        className="w-4 h-4 text-yellow-400"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                      </svg>
-                    ))}
-                    <span className="ml-1 text-sm font-medium">4.9/5</span>
-                  </div>
-                </div>
+            
               </div>
             </AnimatedSection>
 
@@ -604,7 +572,7 @@ export default function HomePage() {
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-white/5 rounded-full blur-3xl"></div>
 
         <div className="container mx-auto px-4 relative z-10">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
             {stats.map((stat, index) => (
               <AnimatedSection key={index} delay={index * 0.1}>
                 <div className="corporate-stat">

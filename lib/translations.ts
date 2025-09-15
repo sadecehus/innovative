@@ -38,7 +38,7 @@ export const translations = {
       buildAmazingDesc:
         "Konseptten dağıtıma kadar, etki yaratan dijital çözümler oluşturmanızda size yardımcı olacağız.",
       startProject: "Projenizi Başlatın",
-      trustedBy: "GÜVENİLEN MARKALAR",
+      trustedBy: "MÜŞTERİLERİMİZ",
       ourFeatures: "ÖZELLİKLERİMİZ",
       whyChooseUs: "Neden Bizi Seçmelisiniz?",
       whyChooseUsDesc:
@@ -342,7 +342,7 @@ export const translations = {
       buildAmazing: "Let's Build Something Amazing",
       buildAmazingDesc: "From concept to deployment, we'll help you create digital solutions that make an impact.",
       startProject: "Start Your Project",
-      trustedBy: "TRUSTED BY LEADING COMPANIES",
+      trustedBy: "CLIENTS",
       ourFeatures: "OUR FEATURES",
       whyChooseUs: "Why Choose Us?",
       whyChooseUsDesc:
