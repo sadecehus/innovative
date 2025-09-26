@@ -180,25 +180,24 @@ export const translations = {
       peopleTitle: "Kodun Arkasındaki İnsanlar",
       team: [
         {
-          name: "Alex Chen",
-          role: "Baş Geliştirici",
-          bio: "Modern web teknolojilerinde 8+ yıl deneyimli full-stack geliştirici.",
+          name: "Hüseyin Kocatürk",
+          role: "Full-Stack Geliştirici",
+          bio: "Modern web teknolojilerinde 3+ yıl deneyimli full-stack geliştirici.",
+          img: "/hus.png",
         },
         {
-          name: "Sarah Johnson",
+          name: "Abdullah Aldemir",
           role: "VR Uzmanı",
           bio: "Sürükleyici dijital deneyimler yaratma konusunda tutkulu VR/AR geliştiricisi.",
+          img: "/abdullah.png",
         },
         {
-          name: "Mike Rodriguez",
-          role: "Yazılım Mimarı",
-          bio: "Ölçeklenebilir çözümler ve temiz kod uygulamalarına odaklanan sistem mimarı.",
+          name: "Emre Aygür",
+          role: "DevOps Mühendisi",
+          bio: "CI/CD boru hatları ve bulut altyapısına odaklanan DevOps mühendisi.",
+          img: "/emre.png",
         },
-        {
-          name: "Emily Davis",
-          role: "UI/UX Tasarımcı",
-          bio: "Kullanıcı ihtiyaçları ile teknik uygulama arasında köprü kuran tasarımcı.",
-        },
+    
       ],
       journey: "// Yolculuğumuz",
       milestones: "Şirket Kilometre Taşları",
@@ -484,25 +483,24 @@ export const translations = {
       peopleTitle: "The People Behind the Code",
       team: [
         {
-          name: "Alex Chen",
+          name: "Hüseyin Kocatürk",
           role: "Lead Developer",
-          bio: "Full-stack developer with 8+ years of experience in modern web technologies.",
+          bio: "Full-stack developer with 3+ years of experience in modern web technologies.",
+          img: "/hus.png",
         },
         {
-          name: "Sarah Johnson",
+          name: "Abdullah Aldemir",
           role: "VR Specialist",
           bio: "VR/AR developer passionate about creating immersive digital experiences.",
+          img: "/abdullah.png",
         },
         {
-          name: "Mike Rodriguez",
-          role: "Software Architect",
-          bio: "System architect focused on scalable solutions and clean code practices.",
+          name: "Emre Aygür",
+          role: "DevOps Engineer",
+          bio: "DevOps engineer focused on CI/CD pipelines and cloud infrastructure.",
+          img: "/emre.png",
         },
-        {
-          name: "Emily Davis",
-          role: "UI/UX Designer",
-          bio: "Designer who bridges the gap between user needs and technical implementation.",
-        },
+     
       ],
       journey: "// Our Journey",
       milestones: "Company Milestones",

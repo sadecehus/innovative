@@ -64,13 +64,13 @@ export default function AboutPage() {
               <div className="font-mono text-sm text-muted-foreground mb-4">{t("about.meetTeam")}</div>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">{t("about.peopleTitle")}</h2>
             </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {t("about.team").map((member: any, index: number) => (
                 <Card key={index} className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                   <CardContent className="p-6 text-center">
                     <div className="relative mb-4">
                       <Image
-                        src="/placeholder.svg?height=200&width=200"
+                        src={member.img}
                         alt={member.name}
                         width={200}
                         height={200}

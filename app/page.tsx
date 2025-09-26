@@ -84,20 +84,6 @@ export default function HomePage() {
     { 
       name: "KGS", 
       logo: "kgs.png" 
-    },
-    { 
-      name: "Google", 
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/512px-Google_2015_logo.svg.png" 
-    },
-   
-  
-    { 
-      name: "Netflix", 
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/512px-Netflix_2015_logo.svg.png" 
-    },
-    { 
-      name: "Spotify", 
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/512px-Spotify_logo_without_text.svg.png" 
     }
     
   ]
